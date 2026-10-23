@@ -1,0 +1,28 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.clean.kitkat.launcher'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.clean.kitkat.launcher'
+        minSdk 19
+        targetSdk 19
+        versionCode 7
+        versionName '1.4'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}

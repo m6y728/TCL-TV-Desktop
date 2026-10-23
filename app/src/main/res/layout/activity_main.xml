@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky_bg">
+
+    <ImageView
+        android:id="@+id/wallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:id="@+id/ambient"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_gravity="bottom"
+        android:alpha="0.9" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingStart="56dp"
+        android:paddingEnd="56dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="26dp"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false">
+
+            <LinearLayout
+                android:id="@+id/leftBlock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/greeting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="#8CFFFFFF" />
+
+                <TextClock
+                    android:id="@+id/clock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:format24Hour="HH:mm"
+                    android:format12Hour="h:mm"
+                    android:textColor="#FFFFFFFF"
+                    android:textSize="52sp"
+                    android:fontFamily="sans-serif-light"
+                    android:includeFontPadding="false" />
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:textSize="14sp"
+                    android:textColor="#99FFFFFF" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/watermark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@id/topButtons"
+                android:layout_alignTop="@id/leftBlock"
+                android:layout_marginTop="13px"
+                android:text="烤面包 TV"
+                android:textSize="30sp"
+                android:textColor="#FFFFFFFF"
+                android:fontFamily="sans-serif-light"
+                android:includeFontPadding="false" />
+
+            <LinearLayout
+                android:id="@+id/topButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignBottom="@id/leftBlock"
+                android:layout_marginBottom="2dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/wifi_pill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/pill_bg"
+                    android:textColor="@color/pill_text"
+                    android:paddingStart="18dp"
+                    android:paddingEnd="20dp"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:maxWidth="200dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:focusable="true"
+                    android:clickable="true" />
+
+                <TextView
+                    android:id="@+id/settings_pill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:background="@drawable/pill_bg"
+                    android:textColor="@color/pill_text"
+                    android:paddingStart="18dp"
+                    android:paddingEnd="20dp"
+                    android:gravity="center"
+                    android:text="@string/settings"
+                    android:textSize="15sp"
+                    android:focusable="true"
+                    android:clickable="true" />
+
+                <TextView
+                    android:id="@+id/source_pill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/pill_bg"
+                    android:textColor="@color/pill_text"
+                    android:paddingStart="18dp"
+                    android:paddingEnd="20dp"
+                    android:gravity="center"
+                    android:text="@string/source"
+                    android:textSize="15sp"
+                    android:focusable="true"
+                    android:clickable="true" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/hero_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="24dp"
+            android:textColor="#FFFFFFFF"
+            android:textSize="40sp"
+            android:fontFamily="sans-serif-light"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:maxWidth="720dp"
+            android:ellipsize="end" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <com.clean.kitkat.launcher.StepScrollView
+            android:id="@+id/apps_scroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:scrollbars="none"
+            android:clipChildren="true"
+            android:clipToPadding="true"
+            android:fillViewport="false">
+
+            <LinearLayout
+                android:id="@+id/apps_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:clipChildren="false"
+                android:clipToPadding="false" />
+        </com.clean.kitkat.launcher.StepScrollView>
+
+        <LinearLayout
+            android:id="@+id/dock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/dock_bg"
+            android:padding="12dp" />
+    </LinearLayout>
+</FrameLayout>

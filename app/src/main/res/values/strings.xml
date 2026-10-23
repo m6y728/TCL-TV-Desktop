@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">简洁桌面</string>
+    <string name="wifi">网络</string>
+    <string name="settings">设置</string>
+    <string name="source">信号源</string>
+    <string name="greeting_morning">早上好</string>
+    <string name="greeting_afternoon">下午好</string>
+    <string name="greeting_evening">晚上好</string>
+    <string name="weekdays">日一二三四五六</string>
+    <string name="date_format">%1$d月%2$d日 星期%3$s</string>
+</resources>
