@@ -21,8 +21,6 @@ A minimalist launcher for old TCL TVs running Android 4.4.3 (KitKat). It replace
 
 ---
 
-<img width="2198" height="1279" alt="addd6e57fb40551a2d4eb0be0f162a3a" src="https://github.com/user-attachments/assets/150b50ea-1c42-4a88-8347-81dabea41607" />
-
 ## 为什么做这个 / Why this exists
 
 TCL 国行老电视在系统安装器里做了拦截：正常安装一个声明了桌面（HOME 类）的应用，一律报"安装异常"。当贝桌面、Emotn UI 都是这么死的——不是装不上，是**不让装**。
@@ -57,7 +55,7 @@ TCL 国行老电视在系统安装器里做了拦截：正常安装一个声明�
 
 ## 效果预览 / Screenshots
 
-<img width="3814" height="2274" alt="F4897BE01369ECB1C136E3C0BCB9AACA" src="https://github.com/user-attachments/assets/3d2f14bd-75e4-4c5e-8984-823213c76891" />
+<img width="2198" height="1279" alt="addd6e57fb40551a2d4eb0be0f162a3a" src="https://github.com/user-attachments/assets/150b50ea-1c42-4a88-8347-81dabea41607" />
 <img width="3792" height="2179" alt="DECFCE369FD65F0D9AF435F88B8DADF7" src="https://github.com/user-attachments/assets/65e0f268-db21-4acb-97f4-175009593432" />
 <img width="3858" height="2258" alt="6BF832C36D0C00DC3CFBF84F7EA0AD5E" src="https://github.com/user-attachments/assets/f70a640a-c6bd-43b0-a09d-530e6ec7ad68" />
 
