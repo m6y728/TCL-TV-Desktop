@@ -51,7 +51,7 @@ TCL 国行老电视在系统安装器里做了拦截：正常安装一个声明�
 
 ## 其他应用 / Other Apps
 
-- **全视界** — 电视应用主界面，普通应用，无需 Root：[下载 全视界-v1.0.apk](https://github.com/m6y728/TCL-TV-Desktop/releases/download/%E5%85%A8%E8%A7%86%E7%95%8C-tv-v1.0/-v1.0.apk)
+- **全视界** — 电视应用主界面，普通应用，无需 Root：[下载 全视界-v1.0.apk](https://github.com/m6y728/TCL-TV-Desktop/releases/download/%E5%85%A8%E8%A7%86%E7%95%8C-tv-v1.0/jiandesk.tv-v1.0.apk)
 
 ---
 
