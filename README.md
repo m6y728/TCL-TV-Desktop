@@ -1,5 +1,8 @@
 # TCL TV Desktop
 
+<img width="2301" height="1279" alt="ba176c478adbbf50665a0bb793cf5182" src="https://github.com/user-attachments/assets/d22841cd-2fb8-4ed1-9b14-6c5d640aa918" />
+<img width="2198" height="1279" alt="addd6e57fb40551a2d4eb0be0f162a3a" src="https://github.com/user-attachments/assets/150b50ea-1c42-4a88-8347-81dabea41607" />
+
 Custom Android TV launcher for TCL MT5882 / Android 4.4.3 (KitKat).
 
 - Package: `com.clean.kitkat.launcher`
