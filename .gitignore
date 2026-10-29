@@ -1,0 +1,19 @@
+# Local build caches
+.gradle/
+.gradle-8.9/
+.gradle-home/
+.android/
+build/
+app/build/
+analytics.settings
+
+# Local Android SDK and downloads
+android-sdk/
+.sdk-downloads/
+
+# Local configuration
+local.properties
+
+# Local APK artifacts
+*.apk
+*.ap_
